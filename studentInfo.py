@@ -25,7 +25,7 @@ class Student:
   def assignRandomHeight(self, isMetric):
     pass
 
-inputQuestions = [ 
+inputQuestions = [
   "For STUDENTS BY AGE, type 0",
   "For STUDENTS BY LAST NAME, type 1",
   "For STUDENTS BY FIRST NAME, type 3",
@@ -34,9 +34,9 @@ inputQuestions = [
 ]
 
 def getUserSelection():
-  print inputQuestions[0]
-  print inputQuestions[1]
-  print inputQuestions[2]
+  print (inputQuestions[0])
+  print (inputQuestions[1])
+  print (inputQuestions[2])
   return input("Type selection and press enter:")
 
 
@@ -44,19 +44,19 @@ def printHeader():
     print("HEADER TEXT HERE")
 
 def printStudentsByAge():
-  print "----Students By Age-----"
+  print ("----Students By Age-----")
 
 def printStudentsLName():
-  print "----Students By -----"
+  print ("----Students By -----")
 
 def printStudentsFName():
-  print "----Students By -----"
+  print ("----Students By -----")
 
 def printSumAge():
-  print "Answer:"
+  print ("Answer:")
 
 def printAvgAge():
-  print "Answer:"
+  print ("Answer:")
 
 def ageRange(studentA, studentB):
   pass
