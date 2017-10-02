@@ -1,5 +1,6 @@
 import random
 
+firstNames=["Noah", "Emma", "Liam", "Olivia", "William", "Ava", "Mason", "Sophia", "James", "Isabella", "Benjamin", "Mia", "Jacob", "Charlotte", "Michael", "Abigail", "Elijah", "Emily", "Ethan", "Harper"]
 lastNames=["Smith", "Johnson", "Williams", "Brown", "Jones", "Miller", "Davis", "Garcia", "Rodriguez", "Wilson", "Martinez", "Anderson", "Taylor", "Thomas", "Hernandez", "Moore", "Martin", "Jackson", "Thompson", "White"]
 
 def main():
